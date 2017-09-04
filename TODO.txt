@@ -1,0 +1,12 @@
+Server:
+
+Client:
+1. 
+
+
+Idea level:
+Planinng the sites to go over.
+Managing the search quest and the types.
+Applting encryption.
+Connecting client & server.
+User credentials.
