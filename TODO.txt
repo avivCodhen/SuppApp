@@ -11,14 +11,18 @@ ctg = STRING_FROM_CLIENT
 
 #dict of the ctg and the sites related, the order of the sites is impotant
 #if a category does not exit in a certain site, there will be |None| in the sites location.
+sites = dict( ctg = ('tevabari/../../ctg?searchquery','aminoshop/../../ctg?searchquery', ...),
+              ctg2 = ('tevabari/../../ctg2?searchquery','aminoshop/../../ctg2?searchquery', ...),
+              )
 sites[ctg] = ['tevabari/../../ctg?searchquery',
               'aminoshop/../../ctg?searchquery',
               ..
               ]
-funcs[idx] = [tevabari_parser,
-              aminoshop_parser,
-              ..
-              ]
+              
+funcs = [tevabari_parser,
+         aminoshop_parser,
+         ..
+         ]
 for x in range(sites[ctg]):
   res += funcs[x](sites[ctg][x])
 
