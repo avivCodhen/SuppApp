@@ -1,5 +1,4 @@
 #!/bin/python2
-#from sys import argv
 import sys
 from bs4 import BeautifulSoup
 from urllib2 import quote, urlopen

@@ -1,0 +1,8 @@
+sys
+bs4
+html5lib
+multiprocessing
+urllib2
+json
+Fernet / PyCrypto
+socket
