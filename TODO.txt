@@ -4,7 +4,28 @@ Server:
 3. Apply Encryption.
 4. Add sites.
 5. Multi client communication.
+6. Part the program to a few files for comfort
 
+Data struct:
+ctg = STRING_FROM_CLIENT
+
+#dict of the ctg and the sites related, the order of the sites is impotant
+#if a category does not exit in a certain site, there will be |None| in the sites location.
+sites[ctg] = ['tevabari/../../ctg?searchquery',
+              'aminoshop/../../ctg?searchquery',
+              ..
+              ]
+funcs[idx] = [tevabari_parser,
+              aminoshop_parser,
+              ..
+              ]
+for x in range(sites[ctg]):
+  res += funcs[x](sites[ctg][x])
+
+return Json.dumps(res)
+          # Need to create a dict of the catagories and the sites
+Notes: 
+#https://www.tevacastel.co.il/search.aspx?src={}
 
 Client:
 1. 
