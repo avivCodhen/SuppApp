@@ -1,4 +1,7 @@
 Server:
+1. Apply MultiProcessing.
+2. Apply JSON.
+3. Apply Encryption.
 
 Client:
 1. 
