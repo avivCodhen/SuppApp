@@ -32,7 +32,13 @@ Notes:
 #https://www.tevacastel.co.il/search.aspx?src={}
 
 Client:
-1. 
+1.Build an user-login interface
+2.Create the graphic layout for the application
+3.create the tabs necessary for the search query string
+4.Send search query request to the server
+5.Recieve JSON data and apply to the application graphics.
+
+
 
 
 Idea level:
@@ -41,3 +47,5 @@ Managing the search quest and the types.
 Applting encryption.
 Connecting client & server.
 User credentials.
+
+
